@@ -1,0 +1,7 @@
+h1 {
+    color: red;
+    background: url('js-logo.png');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
