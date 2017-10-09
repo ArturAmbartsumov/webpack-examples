@@ -1,41 +1,40 @@
 {
-    "extends": "airbnb",
-    "parser": "babel-eslint",
-    "plugins": [
-      "react",
-      "import"
-    ],
-    "rules": {
-    "indent": ["error", 4, {
-      "SwitchCase": 1,
-      "FunctionDeclaration": {
-        "parameters": 1,
-        "body": 1
-      },
-      "FunctionExpression": {
-        "parameters": 1,
-        "body": 1
-      }
-    }],
-    "max-len": ["error", 120, 4, {
-      "ignoreUrls": true,
-      "ignoreComments": false,
-      "ignoreRegExpLiterals": true,
-      "ignoreStrings": true,
-      "ignoreTemplateLiterals": true
-    }],
-    "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
-    "quotes": ["error", "single"],
-    "react/jsx-curly-spacing": ["error", "always"],
-    "react/jsx-indent": ["error", 4],
-    "react/jsx-indent-props": ["error", 4],
-    "react/prefer-stateless-function": ["off", { "ignorePureComponents": false }],
-    "import/prefer-default-export": "off",
-    "react/jsx-handler-names": ["warn", {
-      "eventHandlerPrefix": "handle",
-      "eventHandlerPropPrefix": "on"
-    }],
-    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "import"
+  ],
+  "rules": {
+  "indent": ["error", 4, {
+    "SwitchCase": 1,
+    "FunctionDeclaration": {
+      "parameters": 1,
+      "body": 1
+    },
+    "FunctionExpression": {
+      "parameters": 1,
+      "body": 1
     }
+  }],
+  "max-len": ["error", 120, 4, {
+    "ignoreUrls": true,
+    "ignoreComments": false,
+    "ignoreRegExpLiterals": true,
+    "ignoreStrings": true,
+    "ignoreTemplateLiterals": true
+  }],
+  "no-restricted-syntax": ["error", "LabeledStatement", "WithStatement"],
+  "quotes": ["error", "single"],
+  "react/jsx-curly-spacing": ["error", "always"],
+  "react/jsx-indent": ["error", 4],
+  "react/jsx-indent-props": ["error", 4],
+  "react/prefer-stateless-function": ["off", { "ignorePureComponents": false }],
+  "import/prefer-default-export": "off",
+  "react/jsx-handler-names": ["warn", {
+    "eventHandlerPrefix": "handle",
+    "eventHandlerPropPrefix": "on"
+  }],
+  "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
   }
-  
+}
